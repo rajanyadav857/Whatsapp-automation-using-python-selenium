@@ -11,8 +11,9 @@ This python program will read the names of contacts availabe in 'contacts.csv' f
 
 ## To run the project : 
 1. Firstly update the contact list of 'contacts.csv' file ( the contact name should be same as it is saved in mobile)
-2. Update the msg variable with your new msg availabe in 'WhatsApp.py' file
-2. Run WhatsApp.py
+2. To update CSV file. Please update through your whole Path name. like (c:\user..............). If after doing that its throowing your an error named "Unicode error". Just replace the file path from "\"  to "\\" everywhere.(c:\\user\\......)
+3. Update the msg variable with your new msg availabe in 'WhatsApp.py' file
+4. Run WhatsApp.py
 	>$ python WhatsApp.py
 
 ## After running the code:
