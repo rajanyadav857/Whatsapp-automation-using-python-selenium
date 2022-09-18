@@ -7,7 +7,7 @@ with open('contacts.csv',"r") as f:
     for row in csv_reader:
         contacts.append(row[0])
 
-driver=webdriver.Chrome()   # Selenium chromedriver path
+driver=webdriver.Chrome("")   # Selenium chromedriver path
 driver.get("https://web.whatsapp.com/")
 
 while True:
